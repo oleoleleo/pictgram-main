@@ -39,6 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem "jquery-rails"
 gem 'bcrypt'
+gem "carrierwave"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -47,7 +48,6 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
-  gem "carrierwave"
 end
 
 group :development do
