@@ -52,4 +52,4 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database:　pictgram_practice_development
+  database: pictgram_practice_development
